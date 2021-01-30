@@ -31,7 +31,7 @@ driver = webdriver.Chrome("C:\\Program Files (x86)\\chromedriver.exe")
 URL = "https://accounts.google.com/signin/v2/identifier?service=classroom&passive=1209600&continue=https%3A%2F%2Fclassroom.google.com%2F%3Femr%3D0&followup=https%3A%2F%2Fclassroom.google.com%2F%3Femr%3D0&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
 
 # put your teams credentials here
-CREDS = {'sborowiecki.ti117@zsp1piotrkow.edu.pl': '', 'szymon01': ''}
+CREDS = {'youremail': '', 'yourpass': ''}
 
 
 def login():
